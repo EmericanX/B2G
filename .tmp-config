@@ -1,0 +1,4 @@
+MAKE_FLAGS=-j10
+GECKO_OBJDIR=/home/emericanx/Source_Firefox/B2G/objdir-gecko
+DEVICE_NAME=razr-hd
+DEVICE=xt926
