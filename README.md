@@ -1,5 +1,5 @@
 # Initial xt926 support #
-Manifest to build Firefox OS for xt926
+Manifest to build Firefox OS for xt926(WIP!!)
 
 Make a build directory:
 
@@ -13,7 +13,8 @@ Now initialize your local repository:
 
 Next pull the manifest to local:
 
-	repo sync:
+	repo sync
+
 
 FirefoxOS syncs a little different then Android to pull the rest down.
 
@@ -25,7 +26,8 @@ Select the device you want to build for. ie razr-hd/xt926
 
 	./config.sh razr-hd
 
-#
+
+Running the previous command will start the actual sync for the device you selected.
 
 # Boot to Gecko (B2G)
 
