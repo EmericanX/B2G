@@ -1,3 +1,32 @@
+# Initial xt926 support #
+Manifest to build Firefox OS for xt926
+
+Make a build directory:
+
+	mkdir B2G (or whatever name you choose)
+	cd B2G (or the name  you chose)
+
+Now initialize your local repository:
+
+	repo init -u git@github.com:EmericanX/B2G.git -b xt926
+
+
+Next pull the manifest to local:
+
+	repo sync:
+
+FirefoxOS syncs a little different then Android to pull the rest down.
+
+Run the following command to see available devices:
+
+	./config.sh
+
+Select the device you want to build for. ie razr-hd/xt926
+
+	./config.sh razr-hd
+
+#
+
 # Boot to Gecko (B2G)
 
 Boot to Gecko aims to create a complete, standalone operating system for the open web.
